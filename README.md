@@ -16,5 +16,5 @@ At this time, the versions are:
 ## usage:
 
 ```shell
-docker run --rm -v $(pwd):/usr/src/myapp ricwein/gcc-cmake /bin/bash -c "cmake . && make"
+docker run --rm -v $(pwd):/usr/src/myapp ricwein/cmake-gcc /bin/bash -c "cmake . && make"
 ```
